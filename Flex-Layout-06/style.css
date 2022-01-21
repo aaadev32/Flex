@@ -25,7 +25,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 li {
@@ -44,18 +44,27 @@ a {
 
 .body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 4px;
+  top: 0px;
+  position: fixed;
+  width: 100%;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
+  padding: 4px;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
 }
 
 .left-links {
@@ -71,15 +80,16 @@ a {
 .img-search-do-links {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
-  margin: 12px;
 }
 
 .input {
   display: flex;
   justify-content: center;
 }
+
